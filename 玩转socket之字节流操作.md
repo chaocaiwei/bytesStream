@@ -3,6 +3,8 @@
 
 但是我过我们要用socket，实现一套基本TCP/IP协议的自定义协议，那么，对于字节流的操作，数据包的拼接、拆解，是绕不开的。
 
+本文的所有示例代码在[这里][https://github.com/chaocaiwei/bytesStream]
+
 ##### 字节流的表示方式
 ###### NSData、Data
 在iOS，对于字节流，大多数情况下我们要打交道的是`NSData`类型数据。在swift中它叫`Data`
